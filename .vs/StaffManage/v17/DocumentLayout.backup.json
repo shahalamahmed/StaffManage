@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,16 +31,8 @@
       "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Migrations\\20240914110744_Add-Migration ChangeProperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StaffManage\\Migrations\\20240914110744_Add-Migration ChangeProperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\migrations\\20240913054152_addemployeetabletodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|c:\\users\\you tech bd\\source\\repos\\staffmanage\\staffmanage\\migrations\\20240914110744_add-migration changeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6381432-2B88-4832-B988-BC91E296693E}|StaffManage\\StaffManage.csproj|solutionrelative:staffmanage\\migrations\\20240914110744_add-migration changeproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,56 +62,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "StaffManage\\Views\\Employee\\Create.cshtml",
               "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Create.cshtml",
               "RelativeToolTip": "StaffManage\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAmwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC4AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-15T04:44:14.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "StaffManage\\Views\\Employee\\Index.cshtml",
               "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "StaffManage\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAmwG4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-14T16:20:27.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Delete.cshtml",
-              "RelativeDocumentMoniker": "StaffManage\\Views\\Employee\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Delete.cshtml",
-              "RelativeToolTip": "StaffManage\\Views\\Employee\\Delete.cshtml",
-              "ViewState": "AgIAADUAAAAAAAAAAAAmwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-14T16:20:24.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "StaffManage\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "StaffManage\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAkwFwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwGkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T17:14:30.223Z",
               "EditorCaption": ""
@@ -128,27 +111,27 @@
               "RelativeDocumentMoniker": "StaffManage\\Views\\Employee\\Edit.cshtml",
               "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Employee\\Edit.cshtml",
               "RelativeToolTip": "StaffManage\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAIAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwFEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T09:06:43.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StaffManage\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "StaffManage\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAA4AAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-13T05:57:02.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "StaffManage\\Data\\ApplicationDbContext.cs",
@@ -156,8 +139,7 @@
               "RelativeToolTip": "StaffManage\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwCQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:23:35.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T05:23:35.789Z"
             },
             {
               "$type": "Document",
@@ -169,8 +151,7 @@
               "RelativeToolTip": "StaffManage\\Models\\Employee.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAswBkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:03:30.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T05:03:30.68Z"
             },
             {
               "$type": "Document",
@@ -182,12 +163,11 @@
               "RelativeToolTip": "StaffManage\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:33:39.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T05:33:39.794Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "20240913054152_AddEmployeeTableToDb.cs",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Migrations\\20240913054152_AddEmployeeTableToDb.cs",
               "RelativeDocumentMoniker": "StaffManage\\Migrations\\20240913054152_AddEmployeeTableToDb.cs",
@@ -195,12 +175,11 @@
               "RelativeToolTip": "StaffManage\\Migrations\\20240913054152_AddEmployeeTableToDb.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAQwCMAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T05:41:53.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T05:41:53.25Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "20240914110744_Add-Migration ChangeProperties.cs",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Migrations\\20240914110744_Add-Migration ChangeProperties.cs",
               "RelativeDocumentMoniker": "StaffManage\\Migrations\\20240914110744_Add-Migration ChangeProperties.cs",
@@ -208,12 +187,11 @@
               "RelativeToolTip": "StaffManage\\Migrations\\20240914110744_Add-Migration ChangeProperties.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T11:07:45.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T11:07:45.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\appsettings.json",
               "RelativeDocumentMoniker": "StaffManage\\appsettings.json",
@@ -225,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "StaffManage\\Properties\\launchSettings.json",
@@ -237,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\YOU TECH BD\\source\\repos\\StaffManage\\StaffManage\\appsettings.Development.json",
               "RelativeDocumentMoniker": "StaffManage\\appsettings.Development.json",

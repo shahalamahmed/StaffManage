@@ -4,7 +4,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- SweetAlert2 Library -->
 
 <div class="card shadow border-0 mt-4">
     <div class="card-header bg-secondary bg-gradient ml-0 py-3">
@@ -17,7 +19,6 @@
     <div class="card-body p-4">
         <form method="post" enctype="multipart/form-data" class="row g-3">
             <div class="col-12 border p-3">
-
                 <!-- First Name -->
                 <div class="form-floating py-2">
                     <input asp-for="FirstName" class="form-control border-0 shadow" />
@@ -46,21 +47,26 @@
                     <span asp-validation-for="Mobile" class="text-danger"></span>
                 </div>
 
+                <!-- Date of Birth -->
                 <div class="mb-4 row">
                     <label asp-for="DateOfBirth" class="mb-1"></label>
                     <input asp-for="DateOfBirth" id="dob" class="form-control" placeholder="Select your birth date" />
                 </div>
 
-                <!-- Photo Upload -->
-                <div class="mb-3">
-                    <input class="form-control" type="file" id="upload-image" />
+                <!-- Hidden Input for Base64 Image -->
+                <div class="mb-2 row">
                     <input type="hidden" asp-for="PhotoFile" id="image-base64" />
                 </div>
-        
+
+                <!-- File Input -->
+                <div class="mb-3">
+                    <input class="form-control" type="file" id="upload-image" />
+                </div>
+
                 <!-- Buttons -->
                 <div class="row pt-2">
                     <div class="col-6 col-md-3">
-                        <button type="submit" class="btn btn-primary form-control">Create</button>
+                        <button type="submit" class="btn btn-primary form-control" id="createButton">Create</button>
                     </div>
                     <div class="col-6 col-md-3">
                         <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-primary form-control">Back to List</a>
@@ -71,60 +77,104 @@
     </div>
 </div>
 
-<!-- Cropper Modal -->
-<div class="modal fade" id="cropperModal" tabindex="-1" aria-labelledby="cropperModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-xl">
+<div class="modal fade" id="cropperModal" tabindex="-1" role="dialog" aria-labelledby="cropperModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="cropperModalLabel">Crop Image</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <div class="img-container">
-                    <img id="image-preview" style="width: 100%; max-height: 600px;" />
-                </div>
+            <div class="modal-body text-center">
+                <img id="image-preview" style="max-width: 100%; max-height: 400px;" />
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" id="crop-button" class="btn btn-primary">Crop and Save</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" id="crop-button" class="btn btn-primary">Crop & Save</button>
             </div>
         </div>
     </div>
 </div>
 
 <script>
-    // Initialize cropper modal
-    let cropper;
-    const uploadImageInput = document.getElementById('upload-image');
-    const imagePreview = document.getElementById('image-preview');
-    const imageBase64Input = document.getElementById('image-base64');
-    const cropperModal = new bootstrap.Modal(document.getElementById('cropperModal'));
+    document.addEventListener('DOMContentLoaded', function () {
+        // Flatpickr for Date of Birth
+        flatpickr("#dob", {
+            dateFormat: "Y-m-d",
+            maxDate: "today",
+        });
 
-    uploadImageInput.addEventListener('change', function (event) {
-        const file = event.target.files[0];
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = function (e) {
-                imagePreview.src = e.target.result;
-                cropperModal.show();
+        let cropper;
+        const uploadImageInput = document.getElementById('upload-image');
+        const imagePreview = document.getElementById('image-preview');
+        const cropButton = document.getElementById('crop-button');
+        const imageBase64Input = document.getElementById('image-base64');
+        const cropperModal = new bootstrap.Modal(document.getElementById('cropperModal'), {
+            keyboard: false
+        });
 
-                if (cropper) {
-                    cropper.destroy();
-                }
+        // Handle image file input change
+        uploadImageInput.addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
 
-                cropper = new Cropper(imagePreview, {
-                    aspectRatio: 1,
-                    viewMode: 1
+                    // Show modal for cropping
+                    cropperModal.show();
+
+                    // Initialize Cropper.js on the image inside the modal
+                    if (cropper) {
+                        cropper.destroy();
+                    }
+                    cropper = new Cropper(imagePreview, {
+                        aspectRatio: 1,
+                        viewMode: 1,
+                        autoCropArea: 1,
+                        movable: true,
+                        zoomable: true,
+                        scalable: true,
+                        cropBoxResizable: true,
+                        minContainerHeight: 600,
+                        minContainerWidth: 600
+                    });
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Handle crop button click
+        cropButton.addEventListener('click', function () {
+            if (cropper) {
+                const canvas = cropper.getCroppedCanvas({
+                    width: 200,
+                    height: 200,
                 });
-            };
-            reader.readAsDataURL(file);
-        }
-    });
+                const base64Image = canvas.toDataURL();
 
-    document.getElementById('crop-button').addEventListener('click', function () {
-        const canvas = cropper.getCroppedCanvas();
-        const base64Image = canvas.toDataURL();  // Convert the cropped image to Base64
-        imageBase64Input.value = base64Image;
-        cropperModal.hide();
+                // Set the Base64 image to the hidden input field
+                imageBase64Input.value = base64Image;
+
+                // Close the modal after cropping
+                cropperModal.hide();
+            }
+        });
+        // Form submission with Swal notification
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            // Show Swal success alert
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Employee added successfully",
+                showConfirmButton: false,
+                timer: 1000
+            }).then(() => {
+
+                form.submit();
+            });
+        });
     });
 </script>
